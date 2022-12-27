@@ -1,0 +1,95 @@
+* { 
+    margin: 0%;
+    padding: 0;
+}
+
+.menu {
+    margin-right: 14px;
+    margin-top: 12px;
+}
+
+.menu li {
+    list-style: none;
+    display: inline-block;
+    font-size: 13px;
+}
+
+.menu li a {
+    color: black;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.imagenCirulo {
+    border-radius: 50%;
+}
+
+.barraDeBusqueda {
+    border: 1px solid lightgray;
+    width: 600px;
+    height: 45px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.barraDeBusqueda:hover {
+    box-shadow: 0px 0px 4px 0px #B5B5B5;
+}
+
+.barraDeBusqueda span {
+    font-size: 18px;
+    color: gray;
+    cursor: pointer;
+}
+
+.barraDeBusqueda input {
+    flex-grow: 1; /* La propiedad flex-grow de CSS especifica el factor de crecimiento de un elemento flexible (que tiene asignado display:flex), en su dirección principal. El factor de crecimiento especifica qué cantidad del espacio restante dentro del contenedor flexible, debería ocupar el item en cuestión. */
+    height: 30px;
+    font-size: 16px;
+    border: none;
+    margin-left: 14px;
+    margin-right: 14px;
+}
+
+.barraDeBusqueda input:focus {
+    outline: none;
+}
+
+.botones button {
+    height: 40px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    background-color: #F2F3F4;
+}
+
+.botones button:hover {
+    box-shadow: 0px 0px 4px 0px #B5B5B5;
+}
+
+.buscarConGoogle {
+    width: 140px;
+}
+
+.voyATenerSuerte {
+    width: 140px;
+}
+
+.language {
+    font-size: 14px;
+}
+
+.language p a {
+    color: blue;
+    text-decoration: none;
+}
+
+.language p a:hover {
+    text-decoration: underline;
+}
