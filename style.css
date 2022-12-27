@@ -93,3 +93,21 @@
 .language p a:hover {
     text-decoration: underline;
 }
+
+footer {
+    background-color: #F2F2F2;
+    position: absolute;
+    bottom: 0;
+    height: 30px;
+    text-align: center;
+}
+
+.menu2 a {
+    color: lightslategrey;
+    text-decoration: none;
+}
+
+.menu2 a:hover {
+    text-decoration: underline;
+    color: lightslategrey;
+}
