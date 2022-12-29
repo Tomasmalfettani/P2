@@ -37,11 +37,11 @@
 
 
     <main>
-        <section align="center" class="container">
+        <section align="center" class="container" id="google">
             <div class="d-flex justify-content-around d-flex align-items-center">
-                <img src="img/google.jpg" alt="Logo de Google" class="img-fluid mb-5" width="300px">
+                <img src="img/google.jpg" alt="Logo de Google" class="img-fluid mb-5" width="300px" id="fotoGpogle">
             </div>
-            <div class="d-flex justify-content-around d-flex align-items-center row container-fluid">
+            <div class="d-flex justify-content-around d-flex align-items-center row">
                 <div class="col-md-6 barraDeBusqueda d-flex justify-content-between">
                     <span>
                         <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor"
@@ -76,32 +76,36 @@
     </main>
 
     <footer class="container-fluid" id="footer2">
+        <div class="carbono"> <a href="#"><img src="img/hojaGoogle.png" alt="hoja" class="img-fluid" width="12px">
+                Con emisión neutra de carbono desde 2007</a></div>
         <div>
-            <div class="menu3"><a href=""><img src="img/hojaGoogle.png" alt="hoja" class="img-fluid" width="12px"> Con emisión neutra de carbono desde 2007</a></div>
-            <ul class="d-flex align-items-center d-flex justify-content-between menu3">
-                <li><a href="">Sobre Google</a></li>
-                <li><a href="">Publicidad</a></li>
-                <li><a href="">Negocios</a></li>
-                <li><a href="">Cómo funciona la Búsqueda</a></li>
-                <li><a href="">Privacidad</a></li>
-                <li><a href="">Condiciones</a></li>
-                <li><a href="">Preferencias</a></li>
-            </ul>
+            <div class="d-flex justify-content-between">
+                <div class="d-flex justify-content-start menu3">
+                    <a href="" class="espacio">Sobre Google</a>
+                    <a href="" class="espacio">Publicidad</a>
+                    <a href="" class="espacio">Negocios</a>
+                    <a href="" class="espacio">Cómo funciona la Búsqueda</a>
+                </div>
+                <div class="d-flex justify-content-end menu3">
+                    <a href="" class="espacio">Privacidad</a>
+                    <a href="" class="espacio">Condiciones</a>
+                    <a href="" class="espacio">Preferencias</a>
+                </div>
+            </div>
         </div>
     </footer>
 
     <footer class="container-fluid" id="footer1">
-        <div class="m-1">
-            <ul class="d-flex align-items-center d-flex justify-content-between menu2">
-                <li><a href="">Sobre Google</a></li>
-                <li><a href="">Publicidad</a></li>
-                <li><a href="">Negocios</a></li>
-                <li><a href="">Cómo funciona la Búsqueda</a></li>
-                <li class="carbono"><a href=""><img src="img/hojaGoogle.png" alt="hoja" class="img-fluid" width="12px"> Con emisión neutra de carbono desde 2007</a></li>
-                <li><a href="">Privacidad</a></li>
-                <li><a href="">Condiciones</a></li>
-                <li><a href="">Preferencias</a></li>
-            </ul>
+        <div class="m-1 d-flex align-items-center d-flex justify-content-between menu2">
+            <a href="">Sobre Google</a>
+            <a href="">Publicidad</a>
+            <a href="">Negocios</a>
+            <a href="">Cómo funciona la Búsqueda</a>
+            <a class="carbono" href=""><img src="img/hojaGoogle.png" alt="hoja" class="img-fluid" width="12px">
+                Con emisión neutra de carbono desde 2007</a>
+            <a href="">Privacidad</a>
+            <a href="">Condiciones</a>
+            <a href="">Preferencias</a>
         </div>
     </footer>
 

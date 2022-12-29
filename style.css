@@ -103,22 +103,20 @@ footer {
     height: 45px;
 }
 
-.menu2 {
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 6px;
-    list-style-type: none;
-    
-}
-
-.menu2 a {
+footer a {
     color: lightslategrey;
     text-decoration: none;
 }
 
-.menu2 a:hover {
+footer a:hover {
     text-decoration: underline;
     color: lightslategrey;
+}
+
+.menu2 {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 6px;
 }
 
 .carbono {
@@ -132,6 +130,27 @@ footer {
         display: none;
     }
 
+    #footer2 {
+        height: 90px;
+    }
+    
+    .menu3 {
+        height: 45px;
+        margin-top: 15px;
+    }
+
+    #google {
+        margin-top: 100px;
+    }
+
+    #fotoGpogle {
+        width: 370px;
+    }
+
+    .carbono {
+        padding-top: 10px;
+    }
+
 }
 
 @media screen and (min-width:1296px) { 
@@ -142,21 +161,41 @@ footer {
 
 }
 
-.menu3 {
-    list-style-type: none;
-    height: 45px;
+.espacio {
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
-.menu3 a {
-    color: lightslategrey;
-    text-decoration: none;
+
+/* <footer class="container-fluid" id="footer2">
+<div class="m-2"> <a href="#"><img src="img/hojaGoogle.png" alt="hoja" class="img-fluid" width="12px">
+        Con emisión neutra de carbono desde 2007</a></div>
+        <div>
+            <div class="d-flex align-items-center d-flex justify-content-around menu3">
+                <a href="">Sobre Google</a>
+                <a href="">Publicidad</a>
+                <a href="">Negocios</a>
+                <a href="">Cómo funciona la Búsqueda</a>
+            </div>
+            <div class="d-flex align-items-center d-flex justify-content-around menu3">
+                <a href="">Privacidad</a>
+                <a href="">Condiciones</a>
+                <a href="">Preferencias</a>
+            </div>
+        </div>
+</footer> */
+
+@media screen and (max-width:828px) { 
+
+    #footer2 {
+        display: none;
+    }
+
+    #fotter1 {
+        display: none;
+    }
+
+
+
 }
 
-.menu3 a:hover {
-    text-decoration: underline;
-    color: lightslategrey;
-}
-
-.carbono2 {
-    padding-bottom: 10px;
-}
